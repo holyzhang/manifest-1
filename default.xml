@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="exdroid"
-           fetch=".." />
+           fetch="https://github.com/allwinner-ics" />
   <default revision="ics-exdroid"
            remote="exdroid"
            sync-j="4" />
