@@ -26,12 +26,12 @@
   <project path="device/samsung/maguro" name="device_samsung_maguro" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" />
   <project path="device/ti/panda" name="device_ti_panda" />
-  <project path="device/softwinner/common" name="device_softwinner_common" />
+  <!--project path="device/softwinner/common" name="device_softwinner_common" />
   <project path="device/softwinner/crane-common" name="device_softwinner_crane-common" />
   <project path="device/softwinner/crane-MID9742-sc3052" name="device_softwinner_crane-MID9742-sc3052" />
   <project path="device/softwinner/crane-evb-v12r" name="device_softwinner_crane-evb-v12r" />
   <project path="device/softwinner/crane-evb-v13" name="device_softwinner_crane-evb-v13" />
-  <project path="device/softwinner/crane-evb" name="device_softwinner_crane-evb" />
+  <project path="device/softwinner/crane-evb" name="device_softwinner_crane-evb" /-->
   <project path="docs/source.android.com" name="platform_docs_source.android.com" />
   <project path="external/android-mock" name="platform_external_android-mock" />
   <project path="external/antlr" name="platform_external_antlr" />
@@ -150,7 +150,7 @@
   <project path="external/xmlwriter" name="platform_external_xmlwriter" />
   <project path="external/yaffs2" name="platform_external_yaffs2" />
   <project path="external/zlib" name="platform_external_zlib" />
-  <project path="frameworks/base" name="platform_frameworks_base" />
+  <project path="frameworks/base" name="platform_frameworks_base" revision="master"/>
   <project path="frameworks/compile/libbcc" name="platform_frameworks_compile_libbcc" />
   <project path="frameworks/compile/linkloader" name="platform_frameworks_compile_linkloader" />
   <project path="frameworks/compile/slang" name="platform_frameworks_compile_slang" />
