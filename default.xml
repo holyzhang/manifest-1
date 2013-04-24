@@ -3,6 +3,8 @@
 
   <remote  name="exdroid"
            fetch="https://github.com/allwinner-ics" />
+  <remote  name="exdroid_local"
+           fetch="https://github.com/swiftboard" />
   <default revision="ics-exdroid"
            remote="exdroid"
            sync-j="4" />
@@ -26,12 +28,12 @@
   <project path="device/samsung/maguro" name="device_samsung_maguro" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" />
   <project path="device/ti/panda" name="device_ti_panda" />
-  <!--project path="device/softwinner/common" name="device_softwinner_common" />
-  <project path="device/softwinner/crane-common" name="device_softwinner_crane-common" />
-  <project path="device/softwinner/crane-MID9742-sc3052" name="device_softwinner_crane-MID9742-sc3052" />
+  <project path="device/softwinner/common" name="device_softwinner_common" remote ="exdroid_local"/>
+  <project path="device/softwinner/crane-common" name="device_softwinner_crane-common" remote ="exdroid_local"/>
+  <!--project path="device/softwinner/crane-MID9742-sc3052" name="device_softwinner_crane-MID9742-sc3052" />
   <project path="device/softwinner/crane-evb-v12r" name="device_softwinner_crane-evb-v12r" />
-  <project path="device/softwinner/crane-evb-v13" name="device_softwinner_crane-evb-v13" />
-  <project path="device/softwinner/crane-evb" name="device_softwinner_crane-evb" /-->
+  <project path="device/softwinner/crane-evb-v13" name="device_softwinner_crane-evb-v13" /-->
+  <project path="device/softwinner/crane-evb" name="device_softwinner_crane-evb" remote ="exdroid_local"/>
   <project path="docs/source.android.com" name="platform_docs_source.android.com" />
   <project path="external/android-mock" name="platform_external_android-mock" />
   <project path="external/antlr" name="platform_external_antlr" />
