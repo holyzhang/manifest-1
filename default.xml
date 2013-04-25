@@ -28,12 +28,12 @@
   <project path="device/samsung/maguro" name="device_samsung_maguro" />
   <project path="device/samsung/tuna" name="device_samsung_tuna" />
   <project path="device/ti/panda" name="device_ti_panda" />
-  <project path="device/softwinner/common" name="device_softwinner_common" remote ="exdroid_local"/>
-  <project path="device/softwinner/crane-common" name="device_softwinner_craine-common" remote ="exdroid_local"/>
+  <project path="device/softwinner/common" name="device_softwinner_common" remote ="exdroid_local" revision="master"/>
+  <project path="device/softwinner/crane-common" name="device_softwinner_crane_common" remote ="exdroid_local" revision="master"/>
   <!--project path="device/softwinner/crane-MID9742-sc3052" name="device_softwinner_crane-MID9742-sc3052" />
   <project path="device/softwinner/crane-evb-v12r" name="device_softwinner_crane-evb-v12r" />
   <project path="device/softwinner/crane-evb-v13" name="device_softwinner_crane-evb-v13" /-->
-  <project path="device/softwinner/crane-evb" name="device_softwinner_craine-evb" remote ="exdroid_local"/>
+  <project path="device/softwinner/crane-evb" name="device_softwinner_crane_evb" remote ="exdroid_local" revision="master"/>
   <project path="docs/source.android.com" name="platform_docs_source.android.com" />
   <project path="external/android-mock" name="platform_external_android-mock" />
   <project path="external/antlr" name="platform_external_antlr" />
