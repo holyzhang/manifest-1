@@ -116,7 +116,7 @@
   <project path="external/oauth" name="platform_external_oauth" />
   <project path="external/opencv" name="platform_external_opencv" />
   <project path="external/openssl" name="platform_external_openssl" />
-  <project path="external/oprofile" name="platform_external_oprofile" remote="exdroid_local" remote="master"/>
+  <project path="external/oprofile" name="platform_external_oprofile" remote="exdroid_local" revision="master"/>
   <project path="external/pcre" name="platform_external_pcre" />
   <project path="external/ping" name="platform_external_ping" />
   <project path="external/ping6" name="platform_external_ping6" />
